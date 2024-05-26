@@ -1,0 +1,30 @@
+.header {
+  background: #535151;
+  padding-block: 20px;
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav {
+    ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 33px;
+      li {
+        a {
+          color: white;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
