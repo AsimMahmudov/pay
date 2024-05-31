@@ -1,10 +1,12 @@
 .header {
-  background: #535151;
+  position: relative;
+  // background: #5351512f;
   padding-block: 20px;
   .content {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 20px;
   }
 
   .logo {
@@ -26,5 +28,40 @@
         }
       }
     }
+  }
+
+  .buutons {
+    display: flex;
+    gap: 5px;
+
+    button {
+      width: 100px;
+      height: 40px;
+      border-radius: 20px;
+      border: none;
+      cursor: pointer;
+      background: rgba(186, 255, 249, 0.363);
+      transition: 0.4s;
+    }
+    button:hover {
+      background: rgb(247, 181, 2);
+      color: white;
+      transition: 0.4s;
+    }
+  }
+
+  .bur {
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background: rgba(186, 255, 249, 0.363);
+    transition: 0.4s;
+  }
+  .bur:hover {
+    background: rgb(247, 181, 2);
+    color: white;
+    transition: 0.4s;
   }
 }

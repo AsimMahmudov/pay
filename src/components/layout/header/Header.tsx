@@ -44,8 +44,10 @@ const Header = () => {
 
           {isMobile ? (
             <>
-              <button onClick={() => setIsOpen(!isOpen)}>Burger</button>
-              <BurgerMenu />
+              <button className={scss.bur} onClick={() => setIsOpen(!isOpen)}>
+                Burger
+              </button>
+              <BurgerMenu links={links} isOpen={isOpen} />
             </>
           ) : (
             <>
